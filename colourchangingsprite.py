@@ -39,7 +39,7 @@ def main():
         # Change colour based on boundary contact
 
         if x == 0: current_colour = colors['blue']
-        elif x == screen_width- sprite_width: current_colour = colors['yellow']
+        elif x == screen_width - sprite_width: current_colour = colors['yellow']
         if y == 0: current_colour = colors['red']
         elif y == screen_height - sprite_height: current_colour = colors['green']
 
